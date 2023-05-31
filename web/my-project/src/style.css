@@ -233,10 +233,10 @@ header {
   scroll-snap-type: y proximity;
 }
 
-section {
+/* section {
   min-height: 100vh;
   scroll-snap-align: start;
-}
+} */
 
 /* essay page style START */
 .container {
