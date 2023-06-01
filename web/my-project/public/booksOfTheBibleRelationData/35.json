@@ -1,0 +1,3362 @@
+[
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.94365585"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "1.0000002"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9210285"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92955697"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.94365585"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9724536"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91379243"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9210285"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92955697"
+    },
+    {
+        "verse_uid": "35001001",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8948809"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8433023"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97664535"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8741399"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.961051"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.83101976"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8504648"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8149697"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8703203"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9424834"
+    },
+    {
+        "verse_uid": "35001002",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.85853934"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8801146"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9647977"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92911565"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.952499"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8898249"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.90633833"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.85707164"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.89013445"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9569351"
+    },
+    {
+        "verse_uid": "35001003",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8731271"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.88269246"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9857242"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.96056455"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9739942"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8895222"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9015922"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8511541"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.95079356"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.97285"
+    },
+    {
+        "verse_uid": "35001004",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.93035245"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.93651414"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9751667"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9594461"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9389502"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.93403804"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94458073"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89709187"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93522334"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92763907"
+    },
+    {
+        "verse_uid": "35001005",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9093045"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.871819"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97809213"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9851582"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9547062"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8610682"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.84687066"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8663482"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.96600443"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9542152"
+    },
+    {
+        "verse_uid": "35001006",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9320443"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.87520397"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9487224"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9302339"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8493004"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8404944"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8927526"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8010981"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8729095"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.86040586"
+    },
+    {
+        "verse_uid": "35001007",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8203186"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.94503903"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9704261"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93747526"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91694057"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.93988985"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9179277"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8973958"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8936875"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9084704"
+    },
+    {
+        "verse_uid": "35001008",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8642127"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.88212466"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.94056606"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8193196"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9144343"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8354815"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.82550585"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8194587"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.7875755"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9222541"
+    },
+    {
+        "verse_uid": "35001009",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.7765013"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8947619"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9193264"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.85744804"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9157653"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8764246"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.896079"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.83209217"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8405857"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.87925106"
+    },
+    {
+        "verse_uid": "35001010",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.7832304"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.7089413"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9318483"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8913175"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8951313"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.78057826"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.7743265"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.7264835"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.86580455"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9079854"
+    },
+    {
+        "verse_uid": "35001011",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8316258"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.90577346"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9717221"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8830668"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9753817"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.91001225"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9202778"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90294707"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.86399007"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.952616"
+    },
+    {
+        "verse_uid": "35001012",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.87618786"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8747939"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9849693"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8824261"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9599376"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.89188254"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93970656"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8699691"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8917926"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9632077"
+    },
+    {
+        "verse_uid": "35001013",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.87258077"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.92888963"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "1.0"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94713825"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9240306"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.92888963"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93851435"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.87402034"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94713825"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9240306"
+    },
+    {
+        "verse_uid": "35001014",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.84099"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8758715"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.90919"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.85221434"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.95847213"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.89002144"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9231047"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.84206676"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.88287383"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.85861003"
+    },
+    {
+        "verse_uid": "35001015",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8005465"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.823085"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9544218"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.90376943"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94716215"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8285289"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9191356"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8180068"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.89449596"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90428543"
+    },
+    {
+        "verse_uid": "35001016",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89333737"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8089107"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.966229"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.90897274"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9526119"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8001667"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.86623245"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.78864497"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8966335"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91031194"
+    },
+    {
+        "verse_uid": "35001017",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8739499"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8157562"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.96772355"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93867445"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90077275"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8289417"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.893438"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.75882673"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92168164"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89613634"
+    },
+    {
+        "verse_uid": "35002001",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9015497"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9279318"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9815551"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9189669"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.95402664"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9307438"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8981224"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89865553"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.892292"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94393575"
+    },
+    {
+        "verse_uid": "35002002",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.917719"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.93295735"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98637694"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9435096"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9525751"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.925333"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93155193"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9035431"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93734074"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.93746376"
+    },
+    {
+        "verse_uid": "35002003",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.88624555"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.88982916"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97784114"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9730155"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9372423"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8845365"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.89424527"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8672133"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9562857"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9292078"
+    },
+    {
+        "verse_uid": "35002004",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9084483"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.84876704"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9774368"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.91174436"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.96437764"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.853659"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.90917397"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8283532"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9009741"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9621963"
+    },
+    {
+        "verse_uid": "35002005",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8943187"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9239046"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.986319"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9199122"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9183252"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.92519903"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92860144"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8985537"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92504513"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9135468"
+    },
+    {
+        "verse_uid": "35002006",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89511275"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8366281"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.99802816"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8078537"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.93256867"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8335651"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.88369906"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.86043924"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8021704"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.93316805"
+    },
+    {
+        "verse_uid": "35002007",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.79441833"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8682847"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97811985"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9538603"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9307213"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8489792"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93884087"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.81930757"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92133105"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9371372"
+    },
+    {
+        "verse_uid": "35002008",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8702588"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8437105"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98344904"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9731327"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9342968"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8431537"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8930237"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8524428"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.969671"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92487794"
+    },
+    {
+        "verse_uid": "35002009",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94405866"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.82740927"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9881693"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8890964"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.95612836"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8175386"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.95293045"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8234944"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.86769664"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9516791"
+    },
+    {
+        "verse_uid": "35002010",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.86031836"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9451762"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9999998"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.95905757"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94118416"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9451762"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9686255"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9016994"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.95905757"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94118416"
+    },
+    {
+        "verse_uid": "35002011",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90718925"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8252243"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9843828"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9674656"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.88172185"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.83656317"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8467647"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8429789"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.96811855"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8562883"
+    },
+    {
+        "verse_uid": "35002012",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8759018"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8437073"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9701812"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.96940595"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94406116"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.832711"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8694266"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.84751046"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.939522"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9248005"
+    },
+    {
+        "verse_uid": "35002013",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9385045"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.95154"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98198867"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.96662176"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92611533"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9707035"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9514616"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89594257"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9560363"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9093711"
+    },
+    {
+        "verse_uid": "35002014",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8951882"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8821196"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9836863"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8640799"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8761355"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8768045"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9002806"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.86855114"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.85016185"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8669408"
+    },
+    {
+        "verse_uid": "35002015",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.89438194"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9090702"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9695275"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.86932"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9599059"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.91900104"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9047376"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8660898"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8586271"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.942454"
+    },
+    {
+        "verse_uid": "35002016",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.81389964"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.89738077"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9780843"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.96697724"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9121777"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8708703"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9519971"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.826686"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.93939966"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9115974"
+    },
+    {
+        "verse_uid": "35002017",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.884177"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8223802"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98656595"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92619795"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94065684"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8490801"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8962608"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.86021584"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9313644"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9490479"
+    },
+    {
+        "verse_uid": "35002018",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91416174"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9345098"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98645556"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9791793"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.88055843"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9310615"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9376194"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.88815165"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9604788"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8897487"
+    },
+    {
+        "verse_uid": "35002019",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8744134"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9605503"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.96770406"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.92166513"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9332503"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.991133"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9109542"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90591"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9090699"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9111189"
+    },
+    {
+        "verse_uid": "35002020",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9269177"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9923556"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97648656"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8967192"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8919145"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97783804"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8906441"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.897964"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8616718"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8983327"
+    },
+    {
+        "verse_uid": "35003001",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8526039"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.94495976"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.96862364"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9324659"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9590054"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.94872916"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.91351587"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91523564"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9116084"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9405792"
+    },
+    {
+        "verse_uid": "35003002",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8985743"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9935101"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "1.0"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.98961014"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9129516"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9935101"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9768139"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9119574"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.98961014"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9129516"
+    },
+    {
+        "verse_uid": "35003003",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90331155"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.90169203"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9066539"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.7792517"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8853009"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.915703"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.81355304"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8710817"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.7486114"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90566546"
+    },
+    {
+        "verse_uid": "35003004",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.7696247"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9160178"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9623617"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8091011"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8854156"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9179175"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.81416863"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8473866"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8004052"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9137198"
+    },
+    {
+        "verse_uid": "35003005",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.7417722"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.95244247"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9770542"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8773561"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91027325"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.953681"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.909987"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8831901"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.88790774"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9069909"
+    },
+    {
+        "verse_uid": "35003006",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.82127345"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.893784"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98520494"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9687681"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9056713"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8855357"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.85724735"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.77658653"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9451062"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9056379"
+    },
+    {
+        "verse_uid": "35003007",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.88246346"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.87763274"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9806566"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9291584"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92737615"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8813131"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9352956"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8299726"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.919214"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.93636227"
+    },
+    {
+        "verse_uid": "35003008",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.85547805"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.82297546"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97283065"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.84115267"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8872902"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.81984943"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.88802207"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.6897427"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8366904"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.88874876"
+    },
+    {
+        "verse_uid": "35003009",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.724898"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9093168"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9605161"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.91099346"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91599643"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8876348"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9037924"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8204067"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.89488673"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8820187"
+    },
+    {
+        "verse_uid": "35003010",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.82088596"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9050949"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.97882056"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94091195"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9034279"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9119038"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9303846"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8461086"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9118117"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.90028197"
+    },
+    {
+        "verse_uid": "35003011",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8292982"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.7477536"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98528814"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.83757424"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9309654"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.74642384"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.87994385"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.71058893"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8280829"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9311947"
+    },
+    {
+        "verse_uid": "35003012",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.76548284"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8954185"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9874063"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.86777747"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.97630906"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.887913"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.91269875"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8729369"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.84845257"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9718466"
+    },
+    {
+        "verse_uid": "35003013",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.85301554"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.90501076"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.98298955"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9107765"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9285075"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.90092045"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8766348"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.86892724"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.905844"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9285391"
+    },
+    {
+        "verse_uid": "35003014",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.84393543"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8352554"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9670619"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.7824968"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9284092"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.8504555"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.84319067"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.82838136"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.78914"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9419879"
+    },
+    {
+        "verse_uid": "35003015",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.75499964"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9013319"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9514396"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94208616"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94356596"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9048401"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8774158"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.885998"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.88963"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.936738"
+    },
+    {
+        "verse_uid": "35003016",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8478843"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9386501"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9933147"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.95710135"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.92386675"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.92516065"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9526342"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.933305"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94860494"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9127642"
+    },
+    {
+        "verse_uid": "35003017",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.93101084"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.9212141"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9729332"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9621445"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.94192827"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9511038"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9104934"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.91527283"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.94759655"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9293894"
+    },
+    {
+        "verse_uid": "35003018",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9117837"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_bbe",
+        "cosine_similarity": "0.8615327"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.9175098"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.8584306"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_asv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.95630985"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_kjv",
+        "cosine_similarity": "0.92769885"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9148775"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_bbe",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8947985"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_web",
+        "cosine_similarity": "0.9005588"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_kjv",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.9246069"
+    },
+    {
+        "verse_uid": "35003019",
+        "version_code_1": "t_web",
+        "version_code_2": "t_ylt",
+        "cosine_similarity": "0.8670951"
+    }
+]

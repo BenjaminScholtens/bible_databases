@@ -228,9 +228,13 @@ header {
 }
 
 .scroll-container {
-  height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
+}
+
+.fill-page {
+  height: 100vh;
+  position: relative;
 }
 
 /* section {
@@ -309,46 +313,60 @@ button:hover {
   overflow: visible;
 }
 
-.layer {
-  position: absolute;
+/* Side bade styles START */
+#sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 20px; /* adjust this to set the width of the sidebar */
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  overflow: none;
+}
+
+#sidebar button {
   width: 100%;
-  max-width: 400px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: transform 0.2s;
-}
-.layer-1 {
-  z-index: 7;
-}
-
-.layer-2 {
-  z-index: 3;
+  border: none;
+  background: none;
+  padding: 0.1px;
+  margin: 0;
+  text-align: left;
+  background-color: #cf00008e;
+  flex: 1;
 }
 
-.layer-3 {
-  z-index: 4;
-}
+/* Side bade styles END */
 
-.layer-4 {
-  z-index: 2;
-}
-
-.layer-5 {
-  z-index: 6;
-}
-
-.layer-6 {
+/* Selctor styles START */
+#book-selector {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  /* height: 60px; */
+  background-color: #fcfbfc;  /* Adjust to match your site's background color */
+  border-bottom: 2px solid #000;  /* Adjust to match your site's border color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
+  padding: 10px;
 }
-/* paralax styles end */
 
-/* gallery styles start */
-/* Hide the image gallery by default */
-.image-gallery {
-  display: none;
-  position: relative;
+#book-selector select {
+  width: 30%;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 18px;  /* Adjust to match your site's font size */
+  font-family: "fagun", sans-serif;  /* Adjust to match your site's font family */
+  border: 1px solid #000;  /* Adjust to match your site's border color */
+  border-radius: 5px;
 }
+
+/* Selctor styles END */
 
 /* Show the image gallery and hide the image grid on smaller screens */
 @media (max-width: 600px) {
