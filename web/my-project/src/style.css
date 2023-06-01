@@ -319,7 +319,7 @@ button:hover {
   right: 0;
   top: 0;
   height: 100vh;
-  width: 20px; /* adjust this to set the width of the sidebar */
+  width: 10vw; /* adjust this to set the width of the sidebar */
   display: flex;
   flex-direction: column;
   justify-content: stretch;

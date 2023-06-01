@@ -56,7 +56,7 @@ const loadData = async (bookCode: string) => {
     if (verse && average) {
       const button = document.createElement("button");
       // button.textContent = `Verse ${verse}`;
-      button.style.opacity = `${1 - average}`; // assuming 'average' is a value between 0 and 1
+      button.style.opacity = `${(1 - average) * 3}`; // assuming 'average' is a value between 0 and 1
       button.onclick = () => {
         const section = document.querySelector(`#section-${verse}`);
         if (section) {
@@ -91,7 +91,7 @@ const loadData = async (bookCode: string) => {
               <p>
                 ${asvTranslationDataForVerse.verse_text}
               </p>
-              <h1>Average similarity </b> ${average}</h1>
+              <h1>Average similarity </b> ${average.toFixed(2)}</h1>
             </div>
           </div>
         </section>
