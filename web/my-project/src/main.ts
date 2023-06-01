@@ -1,4 +1,4 @@
-import { html, mean } from "d3";
+import { mean } from "d3";
 import { asvTranslationData } from "./asvTranslationData";
 import { bookNames } from "./fullBookNameData";
 import "./style.css";
@@ -51,7 +51,7 @@ const loadData = async (bookCode: string) => {
   const appDiv = document.querySelector<HTMLDivElement>("#app")!;
   sidebar.innerHTML = '';
   appDiv.innerHTML = '';
-  
+
   averages.forEach(({ verse, average }) => {
     if (verse && average) {
       const button = document.createElement("button");
