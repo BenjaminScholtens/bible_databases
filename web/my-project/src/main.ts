@@ -12,15 +12,15 @@ interface RowData {
   cosine_similarity: string;
 }
 
-const selectElement = document.querySelector<HTMLSelectElement>('#book-selector')!;
+const selectElement =
+  document.querySelector<HTMLSelectElement>("#book-selector")!;
 
-selectElement?.addEventListener('change', (event) => {
+selectElement?.addEventListener("change", (event) => {
   const selectElement = event.target as HTMLSelectElement;
   const bookCode = selectElement.value;
   console.log(bookCode);
   loadData(bookCode);
 });
-
 
 const loadData = async (bookCode: string) => {
   const response = await fetch(`/booksOfTheBibleRelationData/${bookCode}.json`);
@@ -45,18 +45,60 @@ const loadData = async (bookCode: string) => {
 
   const sidebar = document.querySelector<HTMLDivElement>("#sidebar")!;
 
+  const calculateOpacityFromAverage = (average: number) => {
+    return (1 - average) * 3;
+  };
 
+  const appDiv = document.querySelector<HTMLDivElement>("#app")!;
 
   // Clear the existing content
-  const appDiv = document.querySelector<HTMLDivElement>("#app")!;
-  sidebar.innerHTML = '';
-  appDiv.innerHTML = '';
+  sidebar.innerHTML = "";
+  appDiv.innerHTML = "";
 
+  let observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // if there is a id in the url already then clear the text content of the button with the matching id
+          if (window.location.hash) {
+            const button = document.querySelector<HTMLButtonElement>(
+              `#button-${window.location.hash.split("#")[1]}`
+            )!;
+            const average = averages.find(
+              ({ verse }) => verse === window.location.hash.split("#")[1]
+            )?.average;
+            if (button && average) {
+              button.textContent = "";
+              button.style.opacity = `${calculateOpacityFromAverage(average)}`;
+              button.style.padding = "0";
+            }
+          }
+          history.pushState(null, "", "#" + entry.target.id.split("-")[1]);
+          // update the text content of the button with the matching id
+          const button = document.querySelector<HTMLButtonElement>(
+            `#button-${entry.target.id.split("-")[1]}`
+          );
+          if (button) {
+            button.textContent = `Verse ${entry.target.id.split("-")[1]}`;
+            button.style.opacity = "1";
+            button.style.padding = "0.5rem";
+          }
+        }
+      });
+    },
+    {
+      threshold: 0.5, // Adjust this value as needed
+    }
+  );
   averages.forEach(({ verse, average }) => {
     if (verse && average) {
       const button = document.createElement("button");
-      // button.textContent = `Verse ${verse}`;
-      button.style.opacity = `${(1 - average) * 3}`; // assuming 'average' is a value between 0 and 1
+      button.id = `button-${verse}`;
+      // if the id stored in the url matches the id in the button add `Verse ${verse}` as the text content
+      if (window.location.hash === `#${verse}`) {
+        button.textContent = `Verse ${verse}`;
+      }
+      button.style.opacity = `${calculateOpacityFromAverage(average)}`; // assuming 'average' is a value between 0 and 1
       button.onclick = () => {
         const section = document.querySelector(`#section-${verse}`);
         if (section) {
@@ -79,7 +121,8 @@ const loadData = async (bookCode: string) => {
         )?.n;
         const newSection = document.createElement("section");
         newSection.id = `section-${verse}`;
-        // newSection.textContent = `Verse ${asvTranslationDataForVerse.verse_text}: Average similarity = ${average}`;
+        observer.observe(newSection);
+
         newSection!.innerHTML = /*html*/ `
         <section>
           <div
@@ -87,11 +130,15 @@ const loadData = async (bookCode: string) => {
             style="background-color: #fcfbfc; min-height: 100vh"
           >
             <div class="maxTextWidth centered-flex-column">
-              <h2>${bookName} ${asvTranslationDataForVerse.chapter}:${asvTranslationDataForVerse.verse_number}</h2>
+              <h2>${bookName} ${asvTranslationDataForVerse.chapter}:${
+          asvTranslationDataForVerse.verse_number
+        }</h2>
               <p>
                 ${asvTranslationDataForVerse.verse_text}
               </p>
-              <h1>Average similarity </b> ${average.toFixed(2)}</h1>
+              <h1>Average similarity of biblical translations</b> ${average.toFixed(
+                2
+              )}</h1>
             </div>
           </div>
         </section>

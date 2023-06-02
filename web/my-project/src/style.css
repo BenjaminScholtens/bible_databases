@@ -45,6 +45,7 @@ h1 {
   font-family: "fagun", sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
 }
 
 h2 {
@@ -74,7 +75,6 @@ body {
   background-color: #ffffff;
   color: #2d2c29;
   overflow-x: hidden;
-  background: url("images/bg-tile.png ");
   width: 100%;
 }
 
@@ -336,6 +336,7 @@ button:hover {
   text-align: left;
   background-color: #cf00008e;
   flex: 1;
+  color: #000000cc;
 }
 
 /* Side bade styles END */
