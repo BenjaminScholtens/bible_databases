@@ -124,7 +124,6 @@ const loadData = async (bookCode: string) => {
         observer.observe(newSection);
 
         newSection!.innerHTML = /*html*/ `
-        <section>
           <div
             class="flex-container centered-flex-column problem-section"
             style="background-color: #fcfbfc; min-height: 100vh"
@@ -141,7 +140,6 @@ const loadData = async (bookCode: string) => {
               )}</h1>
             </div>
           </div>
-        </section>
       `;
         appDiv.appendChild(newSection);
         // Wait for the browser to paint the updates

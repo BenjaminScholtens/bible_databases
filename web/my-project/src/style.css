@@ -48,6 +48,12 @@ h1 {
   text-align: center;
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
 h2 {
   margin-bottom: 2rem;
   padding-bottom: 0.2rem;
@@ -228,13 +234,16 @@ header {
 }
 
 .scroll-container {
+  display: flex;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
+  flex-flow: column
 }
 
 .fill-page {
   height: 100vh;
-  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* section {
@@ -315,16 +324,16 @@ button:hover {
 
 /* Side bade styles START */
 #sidebar {
-  position: fixed;
+  /* position: fixed;
   right: 0;
-  top: 0;
+  top: 0; */
   height: 100vh;
-  width: 10vw; /* adjust this to set the width of the sidebar */
+  width: 20vw; /* adjust this to set the width of the sidebar */
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: stretch;
-  overflow: none;
+  overflow: hidden;
 }
 
 #sidebar button {
@@ -333,7 +342,7 @@ button:hover {
   background: none;
   padding: 0.1px;
   margin: 0;
-  text-align: left;
+  text-align: center;
   background-color: #cf00008e;
   flex: 1;
   color: #000000cc;
@@ -435,3 +444,4 @@ button:hover {
     flex: 0 0 100%;
   }
 }
+
