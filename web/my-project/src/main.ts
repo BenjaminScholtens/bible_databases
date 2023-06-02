@@ -40,6 +40,10 @@ const loadData = async (bookCode: string) => {
     return {
       verse,
       average: mean(values),
+      // calclulate the standard deviation
+      standard_deviation: Math.sqrt(
+        mean(values.map((value) => Math.pow(value - mean(values)!, 2)))!
+      ),
     };
   });
 
@@ -109,7 +113,7 @@ const loadData = async (bookCode: string) => {
     }
   });
   // Display the data
-  for (const { verse, average } of averages) {
+  for (const { verse, average, standard_deviation } of averages) {
     if (verse && average !== undefined) {
       // Checking average !== undefined because average can be 0
       const asvTranslationDataForVerse = asvTranslationData.resultset.row.find(
@@ -132,18 +136,29 @@ const loadData = async (bookCode: string) => {
               <h2>${bookName} ${asvTranslationDataForVerse.chapter}:${
           asvTranslationDataForVerse.verse_number
         }</h2>
-              <p>
+              <h1>
                 ${asvTranslationDataForVerse.verse_text}
-              </p>
-              <h1>Average similarity of biblical translations</b> ${average.toFixed(
-                2
-              )}</h1>
+              </h1>
+              <div class="flex-row justify-space-evenly" style="padding-top: 2rem">
+                <div class="flex-column">
+                    <h3 class="text-align-center">${average.toFixed(
+                      2
+                    )}</h3>                    
+                    <p class="text-align-center">Average similarity of biblical translations</p>
+                </div>
+                <div class="flex-column">
+                    <h3 class="text-align-center">${standard_deviation.toFixed(
+                      2
+                    )}</h3>                    
+                    <p class="text-align-center">Standard deviation of biblical translations</p>
+                </div>
+              </div>
             </div>
           </div>
       `;
         appDiv.appendChild(newSection);
         // Wait for the browser to paint the updates
-        await new Promise((resolve) => requestAnimationFrame(resolve));
+        // await new Promise((resolve) => requestAnimationFrame(resolve));
       }
     }
   }
