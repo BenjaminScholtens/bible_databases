@@ -73,7 +73,7 @@ const loadData = async (bookCode: string) => {
             )?.average;
             if (button && average) {
               button.textContent = "";
-              button.style.opacity = `${calculateOpacityFromAverage(average)}`;
+              button.style.backgroundColor = `rgba(207, 0, 0, ${calculateOpacityFromAverage(average)})`; // Modify this line
               button.style.padding = "0";
             }
           }
@@ -84,7 +84,6 @@ const loadData = async (bookCode: string) => {
           );
           if (button) {
             button.textContent = `Verse ${entry.target.id.split("-")[1]}`;
-            button.style.opacity = "1";
             button.style.padding = "0.5rem";
           }
         }
@@ -94,6 +93,7 @@ const loadData = async (bookCode: string) => {
       threshold: 0.5, // Adjust this value as needed
     }
   );
+  
   averages.forEach(({ verse, average }) => {
     if (verse && average) {
       const button = document.createElement("button");
@@ -102,7 +102,7 @@ const loadData = async (bookCode: string) => {
       if (window.location.hash === `#${verse}`) {
         button.textContent = `Verse ${verse}`;
       }
-      button.style.opacity = `${calculateOpacityFromAverage(average)}`; // assuming 'average' is a value between 0 and 1
+      button.style.backgroundColor = `rgba(207, 0, 0, ${calculateOpacityFromAverage(average)})`; // Modify this line
       button.onclick = () => {
         const section = document.querySelector(`#section-${verse}`);
         if (section) {
@@ -129,7 +129,7 @@ const loadData = async (bookCode: string) => {
 
         newSection!.innerHTML = /*html*/ `
           <div
-            class="flex-container centered-flex-column problem-section"
+            class="flex-container centered-flex-column"
             style="background-color: #fcfbfc; min-height: 100vh"
           >
             <div class="maxTextWidth centered-flex-column">

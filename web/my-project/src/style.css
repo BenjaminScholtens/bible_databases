@@ -40,22 +40,6 @@ html {
 }
 
 h1 {
-  font-size: 2rem;
-  color: #393939ed;
-  font-family: "fagun", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-align: center;
-  padding-bottom: 1.5rem;
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-}
-
-h2 {
   margin-bottom: 2rem;
   padding-bottom: 0.2rem;
   color: #5d5d5d;
@@ -66,6 +50,24 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   align-self: flex-start;
+
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+h2 {
+
+  font-size: 1rem;
+  color: #393939ed;
+  font-family: "fagun", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -133,10 +135,8 @@ justify-content: space-evenly;
 .problem-section {
   /* flex-flow: row; */
   justify-content: space-between !important;
-  padding: 0 10vw !important;
   height: 100vh;
   align-items: center;
-  gap: 30px;
 }
 .hero-section {
   text-transform: uppercase;
@@ -270,13 +270,15 @@ justify-content: space-evenly;
   display: flex;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
-  flex-flow: column
+  flex-flow: column;
+  flex: 1;
 }
 
 .fill-page {
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
+  flex: 1;
 }
 
 section {
