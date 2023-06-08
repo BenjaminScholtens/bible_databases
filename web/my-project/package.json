@@ -10,10 +10,12 @@
   },
   "devDependencies": {
     "@types/d3": "^7.4.0",
+    "autoprefixer": "^10.4.14",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "postcss": "^8.4.24",
     "d3": "^7.8.4"
   }
 }
