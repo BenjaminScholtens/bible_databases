@@ -3,6 +3,9 @@
 ## Overview
 This project is focused on creating an open-source tool to compare the similarity between various versions of Bible verses using natural language processing techniques. Specifically, it uses a transformer model to generate embeddings for verses from different versions, and then calculates the cosine similarity between these embeddings. This provides a measure of the similarity between the semantic content of the verses in different versions.
 
+## Data Preview
+https://translation-ambiguity-project.netlify.app/
+
 ## Key Features
 
 - **Embedding Generation:** This project uses a transformer model to generate embeddings for each verse. These embeddings capture the semantic content of the verses, enabling comparison between versions.
