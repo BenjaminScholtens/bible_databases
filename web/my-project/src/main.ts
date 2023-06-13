@@ -2,16 +2,18 @@ import { mean } from "d3";
 import { asvTranslationData } from "./asvTranslationData";
 import { bookNames } from "./fullBookNameData";
 import "./style.css";
+import { createPieChart } from "./animateDataViz";
 
 type AccumulatorType = { [verse_uid: string]: number[] };
 
-interface RowData {
+export interface VerseData {
   verse_uid: string;
   version_code_1: string;
   version_code_2: string;
-  cosine_similarity: string;
+  cosine_similarity: number;
+  average_cosine_similarity: number;
+  cosine_similarity_percentile: number;
 }
-
 const selectElement =
   document.querySelector<HTMLSelectElement>("#book-selector")!;
 
@@ -23,16 +25,18 @@ selectElement?.addEventListener("change", (event) => {
 });
 
 const loadData = async (bookCode: string) => {
-  const response = await fetch(`/booksOfTheBibleRelationData/${bookCode}.json`);
-  const data: RowData[] = await response.json();
+  const response = await fetch(
+    `/booksOfTheBibleRelationData/percentile_${bookCode}.json`
+  );
+  const data: VerseData[] = await response.json();
 
   // Calculate averages
-  const grouped = data.reduce((accumulator: AccumulatorType, row: RowData) => {
+  const grouped = data.reduce((accumulator: AccumulatorType, row: VerseData) => {
     const verse = row.verse_uid;
     if (!accumulator[verse]) {
       accumulator[verse] = [];
     }
-    accumulator[verse].push(parseFloat(row.cosine_similarity));
+    accumulator[verse].push(row.cosine_similarity);
     return accumulator;
   }, {} as AccumulatorType);
 
@@ -73,7 +77,9 @@ const loadData = async (bookCode: string) => {
             )?.average;
             if (button && average) {
               button.textContent = "";
-              button.style.backgroundColor = `rgba(207, 0, 0, ${calculateOpacityFromAverage(average)})`; // Modify this line
+              button.style.backgroundColor = `rgba(207, 0, 0, ${calculateOpacityFromAverage(
+                average
+              )})`; // Modify this line
               button.style.padding = "0";
             }
           }
@@ -93,7 +99,7 @@ const loadData = async (bookCode: string) => {
       threshold: 0.5, // Adjust this value as needed
     }
   );
-  
+
   averages.forEach(({ verse, average }) => {
     if (verse && average) {
       const button = document.createElement("button");
@@ -102,7 +108,9 @@ const loadData = async (bookCode: string) => {
       if (window.location.hash === `#${verse}`) {
         button.textContent = `Verse ${verse}`;
       }
-      button.style.backgroundColor = `rgba(207, 0, 0, ${calculateOpacityFromAverage(average)})`; // Modify this line
+      button.style.backgroundColor = `rgba(207, 0, 0, ${calculateOpacityFromAverage(
+        average
+      )})`; // Modify this line
       button.onclick = () => {
         const section = document.querySelector(`#section-${verse}`);
         if (section) {
@@ -119,6 +127,10 @@ const loadData = async (bookCode: string) => {
       const asvTranslationDataForVerse = asvTranslationData.resultset.row.find(
         (row) => `${row.field.verse_uid}` === verse
       )?.field;
+      const verseData = data.find(
+        (row) => `${row.verse_uid}` === verse
+      )
+      const percentileDate = verseData?.cosine_similarity_percentile || 0;
       if (asvTranslationDataForVerse) {
         const bookName = bookNames.resultset.keys.find(
           (key) => key.b === asvTranslationDataForVerse.book
@@ -126,19 +138,31 @@ const loadData = async (bookCode: string) => {
         const newSection = document.createElement("section");
         newSection.id = `section-${verse}`;
         observer.observe(newSection);
+      
 
         newSection!.innerHTML = /*html*/ `
           <div
             class="flex-container centered-flex-column"
             style="background-color: #fcfbfc; min-height: 100vh"
           >
+              <div class="flex-column">
+              <h1>${bookName} ${asvTranslationDataForVerse.chapter}:${
+                asvTranslationDataForVerse.verse_number
+                }</h1>        
+                <div id="my_dataviz_${verseData?.verse_uid}"></div>  
+                <h2 class="text-align-center">
+                  The translations of ${bookName} ${asvTranslationDataForVerse.chapter}:${
+                    asvTranslationDataForVerse.verse_number
+                    } have a ${(percentileDate * 100).toFixed(
+                      2
+                    )}% semantic similarity when compared to other verses in ${bookName}
+                </h2>                    
+                <!-- <p class="text-align-center">Percentile relationship other verses in the book</p> -->
+              </div>
             <div class="maxTextWidth centered-flex-column">
-              <h2>${bookName} ${asvTranslationDataForVerse.chapter}:${
-          asvTranslationDataForVerse.verse_number
-        }</h2>
-              <h1>
+              <h4>
                 ${asvTranslationDataForVerse.verse_text}
-              </h1>
+              </h4>
               <div class="flex-row justify-space-evenly" style="padding-top: 2rem">
                 <div class="flex-column">
                     <h3 class="text-align-center">${average.toFixed(
@@ -157,6 +181,9 @@ const loadData = async (bookCode: string) => {
           </div>
       `;
         appDiv.appendChild(newSection);
+        if (verseData) {
+          createPieChart(verseData)
+        }
         // Wait for the browser to paint the updates
         // await new Promise((resolve) => requestAnimationFrame(resolve));
       }
