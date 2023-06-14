@@ -66,10 +66,12 @@ export function createPieChart({
     .enter()
     .append("path")
     .attr("d", arcGenerator)
+    // @ts-ignore
     .attr("fill", (d) => color(d.data.percentile)) // Set the fill color using the color scale
     .attr("stroke", "white")
     .style("stroke-width", "2px")
     .style("opacity", 0.7);
+    
 
   // Add the similarity percentile text in the middle of the donut
   svg
@@ -102,7 +104,7 @@ type Margin = {
   left: number;
 };
 
-export function createBarChartWithStdDev({
+export function createBarChart({
   selectionId,
   data,
   size,
@@ -123,13 +125,14 @@ export function createBarChartWithStdDev({
   const x = d3
     .scaleBand()
     .range([0, width])
-    .domain(data.map((d) => d.category)) // changed from 'group' to 'category'
+    .domain(data.map((d) => d.category))
     .padding(0.2);
 
   // Y axis scale
   const y = d3
     .scaleLinear()
-    .domain([0, d3.max(data, (d) => d.value)]) // removed 'error' from max calculation
+    // @ts-ignore
+    .domain([0, d3.max(data, (d) => d.value)]) 
     .range([height, 0]);
 
   // Bars
@@ -138,7 +141,8 @@ export function createBarChartWithStdDev({
     .data(data)
     .enter()
     .append("rect")
-    .attr("x", (d) => x(d.category)) // changed from 'group' to 'category'
+    // @ts-ignore  
+    .attr("x", (d: data) => x(d.category))
     .attr("y", (d) => y(d.value))
     .attr("width", x.bandwidth())
     .attr("height", (d) => height - y(d.value))

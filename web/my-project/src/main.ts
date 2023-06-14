@@ -5,8 +5,8 @@ import "./style.css";
 import {
   createPercentileText,
   createPieChart,
-  createBarChartWithStdDev,
-} from "./animateDataViz";
+  createBarChart,
+} from "./dataVisualizationUtils";
 
 type AccumulatorType = {
   [verse_uid: string]: {
@@ -211,7 +211,7 @@ const loadData = async (bookCode: string) => {
             maxSize: 100,
             showPercent: false,
           });
-          createBarChartWithStdDev({
+          createBarChart({
             selectionId: standardDeviationPieChart,
             data: rawValues.map(({ value, version_code_1, version_code_2 }) => {
               return {
