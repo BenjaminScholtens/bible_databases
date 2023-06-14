@@ -174,7 +174,7 @@ const loadData = async (bookCode: string) => {
               </div>
             <div class="maxTextWidth centered-flex-column">
               <h2 class="text-align-center">
-                  Translations continuity of ${bookName} ${
+                  Translation continuity of ${bookName} ${
           asvTranslationDataForVerse.chapter
         }:${
           asvTranslationDataForVerse.verse_number
