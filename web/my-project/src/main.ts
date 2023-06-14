@@ -2,9 +2,19 @@ import { mean } from "d3";
 import { asvTranslationData } from "./asvTranslationData";
 import { bookNames } from "./fullBookNameData";
 import "./style.css";
-import { createPercentileText, createPieChart, createBarChartWithStdDev } from "./animateDataViz";
+import {
+  createPercentileText,
+  createPieChart,
+  createBarChartWithStdDev,
+} from "./animateDataViz";
 
-type AccumulatorType = { [verse_uid: string]: number[] };
+type AccumulatorType = {
+  [verse_uid: string]: {
+    value: number;
+    version_code_1: string;
+    version_code_2: string;
+  }[];
+};
 
 export interface VerseData {
   verse_uid: string;
@@ -37,20 +47,29 @@ const loadData = async (bookCode: string) => {
       if (!accumulator[verse]) {
         accumulator[verse] = [];
       }
-      accumulator[verse].push(row.cosine_similarity);
+      accumulator[verse].push({
+        value: row.cosine_similarity,
+        version_code_1: row.version_code_1,
+        version_code_2: row.version_code_2,
+      });
       return accumulator;
     },
     {} as AccumulatorType
   );
 
-  const averages = Object.entries(grouped).map(([verse, values]) => {
+  const averages = Object.entries(grouped).map(([verse, verseData]) => {
     return {
       verse,
-      average: mean(values),
+      average: mean(verseData.map((data) => data.value)),
       // calclulate the standard deviation
       standard_deviation: Math.sqrt(
-        mean(values.map((value) => Math.pow(value - mean(values)!, 2)))!
+        mean(
+          verseData.map(({ value }) =>
+            Math.pow(value - mean(verseData.map((data) => data.value))!, 2)
+          )
+        )!
       ),
+      rawValues: verseData,
     };
   });
 
@@ -124,7 +143,7 @@ const loadData = async (bookCode: string) => {
     }
   });
   // Display the data
-  for (const { verse, average, standard_deviation } of averages) {
+  for (const { verse, average, standard_deviation, rawValues } of averages) {
     if (verse && average !== undefined) {
       // Checking average !== undefined because average can be 0
       const asvTranslationDataForVerse = asvTranslationData.resultset.row.find(
@@ -154,17 +173,16 @@ const loadData = async (bookCode: string) => {
                         
               </div>
             <div class="maxTextWidth centered-flex-column">
-              <!-- <h4>
-                ${asvTranslationDataForVerse.verse_text}
-              </h4> -->
               <h2 class="text-align-center">
-                  The translations of ${bookName} ${
+                  Translations continuity of ${bookName} ${
           asvTranslationDataForVerse.chapter
-        }:${asvTranslationDataForVerse.verse_number} falls ${createPercentileText(percentileDate)} in translation continuity having a ${(
-          percentileDate * 100
-        ).toFixed(
-          1
-        )}% semantic similarity when compared to other verses in ${bookName}
+        }:${
+          asvTranslationDataForVerse.verse_number
+        } falls ${createPercentileText(
+          percentileDate
+        )} of verses in ${bookName}. Translations have a ${(
+          average * 100
+        ).toFixed(1)}% semantic similarity on average.
                 </h2>       
               <div class="flex-row justify-space-evenly" style="padding-top: 2rem">
                 <div class="flex-column">
@@ -191,35 +209,19 @@ const loadData = async (bookCode: string) => {
             selectionId: averagePieChart,
             percentageFloat: average,
             maxSize: 100,
-            showPercent: false
+            showPercent: false,
           });
           createBarChartWithStdDev({
             selectionId: standardDeviationPieChart,
-            data: [
-              {
-                category: "Translation A",
-                value: 1.2,
-              },
-              {
-                category: "Translation B",
-                value: 0.8,
-              },
-              {
-                category: "Translation C",
-                value: 1.5,
-              },
-              {
-                category: "Translation D",
-                value: 1.0,
-              },
-              {
-                category: "Translation E",
-                value: 0.6,
-              },
-            ],
-            size: 100,
-            margin: { top: 20, right: 20, bottom: 70, left: 70 },
-          })
+            data: rawValues.map(({ value, version_code_1, version_code_2 }) => {
+              return {
+                category: `${version_code_1} vs ${version_code_2}`,
+                value: value,
+              };
+            }),
+            size: 40,
+            margin: { top: 30, right: 20, bottom: 30, left: 20 },
+          });
         }
         // Wait for the browser to paint the updates
         // await new Promise((resolve) => requestAnimationFrame(resolve));

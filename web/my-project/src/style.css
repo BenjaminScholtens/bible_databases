@@ -60,14 +60,14 @@ h1 {
 }
 
 h2 {
-
   font-size: 1rem;
   color: #393939ed;
   font-family: "fagun", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   text-align: center;
   padding-bottom: 1.5rem;
+  line-height: 1.7rem;
 }
 
 h3 {
@@ -119,6 +119,7 @@ align-items: center;
 
 .justify-space-evenly {
 justify-content: space-evenly;
+gap: 2rem
 }
 
 .text-align-center {

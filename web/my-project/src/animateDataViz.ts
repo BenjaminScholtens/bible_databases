@@ -106,12 +106,10 @@ export function createBarChartWithStdDev({
   selectionId,
   data,
   size,
+  margin = { top: 5, right: 10, bottom: 15, left: 10 },
 }: CreateBarChartProps) {
-  
-  const margin = { top: 10, right: 30, bottom: 30, left: 60 };
-
-  const height = size - margin.top - margin.bottom;
-  const width = (size * 1.25) - margin.left - margin.right;
+  const height = size;
+  const width = size * 1.25;
 
   const svg = d3
     .select(`#${selectionId}`)
@@ -121,26 +119,18 @@ export function createBarChartWithStdDev({
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  // X axis
+  // X axis scale
   const x = d3
     .scaleBand()
     .range([0, width])
     .domain(data.map((d) => d.category)) // changed from 'group' to 'category'
     .padding(0.2);
-  svg
-    .append("g")
-    .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x))
-    .selectAll("text")
-    .attr("transform", "translate(-10,0)rotate(-45)")
-    .style("text-anchor", "end");
 
-  // Add Y axis
+  // Y axis scale
   const y = d3
     .scaleLinear()
     .domain([0, d3.max(data, (d) => d.value)]) // removed 'error' from max calculation
     .range([height, 0]);
-  svg.append("g").call(d3.axisLeft(y));
 
   // Bars
   svg
@@ -153,38 +143,37 @@ export function createBarChartWithStdDev({
     .attr("width", x.bandwidth())
     .attr("height", (d) => height - y(d.value))
     .attr("fill", "red");
-
 }
 
 export function createPercentileText(cosineSimilarityPercentile: number) {
   var percentile = cosineSimilarityPercentile * 100;
   if (percentile < 1) {
-    return "below the first percentile";
+    return "below the 1st percentile";
   } else if (percentile < 5) {
-    return "below the fifth percentile";
+    return "below the 5th percentile";
   } else if (percentile < 10) {
-    return "below the tenth percentile";
-  } else if (percentile < 20) {
-    return "below the twentieth percentile";
+    return "below the 10th percentile";
+  } /* else if (percentile < 20) {
+    return "below the 20th percentile";
   } else if (percentile < 30) {
-    return "below the thirtieth percentile";
+    return "below the 30th percentile";
   } else if (percentile < 40) {
-    return "below the fortieth percentile";
-  } else if (percentile < 50) {
-    return "below the fiftieth percentile";
-  } else if (percentile < 60) {
-    return "above the fiftieth percentile";
+    return "below the 40th percentile";
+  } */ else if (percentile < 50) {
+    return "below the 50th percentile";
+  } /* else if (percentile < 60) {
+    return "above the 50th percentile";
   } else if (percentile < 70) {
-    return "above the sixtieth percentile";
+    return "above the 60th percentile";
   } else if (percentile < 80) {
-    return "above the seventieth percentile";
-  } else if (percentile < 90) {
-    return "above the eightieth percentile";
+    return "above the 70th percentile";
+  } */ else if (percentile < 90) {
+    return "above the 80th percentile";
   } else if (percentile < 95) {
-    return "above the ninetieth percentile";
+    return "above the 90th percentile";
   } else if (percentile < 99) {
-    return "above the ninety-fifth percentile";
+    return "above the 95th percentile";
   } else {
-    return "above the ninety-ninth percentile";
+    return "above the 99th percentile";
   }
 }
