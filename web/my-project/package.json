@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "d3": "^7.8.5",
+    "diff-match-patch": "^1.0.5",
     "postcss": "^8.4.24"
   }
 }

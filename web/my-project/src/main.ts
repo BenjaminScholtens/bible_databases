@@ -31,14 +31,17 @@ const loadData = async (bookCode: string) => {
   const data: VerseData[] = await response.json();
 
   // Calculate averages
-  const grouped = data.reduce((accumulator: AccumulatorType, row: VerseData) => {
-    const verse = row.verse_uid;
-    if (!accumulator[verse]) {
-      accumulator[verse] = [];
-    }
-    accumulator[verse].push(row.cosine_similarity);
-    return accumulator;
-  }, {} as AccumulatorType);
+  const grouped = data.reduce(
+    (accumulator: AccumulatorType, row: VerseData) => {
+      const verse = row.verse_uid;
+      if (!accumulator[verse]) {
+        accumulator[verse] = [];
+      }
+      accumulator[verse].push(row.cosine_similarity);
+      return accumulator;
+    },
+    {} as AccumulatorType
+  );
 
   const averages = Object.entries(grouped).map(([verse, values]) => {
     return {
@@ -127,9 +130,7 @@ const loadData = async (bookCode: string) => {
       const asvTranslationDataForVerse = asvTranslationData.resultset.row.find(
         (row) => `${row.field.verse_uid}` === verse
       )?.field;
-      const verseData = data.find(
-        (row) => `${row.verse_uid}` === verse
-      )
+      const verseData = data.find((row) => `${row.verse_uid}` === verse);
       const percentileDate = verseData?.cosine_similarity_percentile || 0;
       if (asvTranslationDataForVerse) {
         const bookName = bookNames.resultset.keys.find(
@@ -138,8 +139,9 @@ const loadData = async (bookCode: string) => {
         const newSection = document.createElement("section");
         newSection.id = `section-${verse}`;
         observer.observe(newSection);
-      
 
+        const averagePieChart = `average_pie_chart_${verseData?.verse_uid}`;
+        const standardDeviationPieChart = `standard_deviation_pie_chart_${verseData?.verse_uid}`;
         newSection!.innerHTML = /*html*/ `
           <div
             class="flex-container centered-flex-column"
@@ -147,17 +149,18 @@ const loadData = async (bookCode: string) => {
           >
               <div class="flex-column">
               <h1>${bookName} ${asvTranslationDataForVerse.chapter}:${
-                asvTranslationDataForVerse.verse_number
-                }</h1>        
-                <div id="my_dataviz_${verseData?.verse_uid}"></div>  
+          asvTranslationDataForVerse.verse_number
+        }</h1>    
+                <h2>falls ${createPercentileText(percentileDate)}</h2>    
                 <h2 class="text-align-center">
-                  The translations of ${bookName} ${asvTranslationDataForVerse.chapter}:${
-                    asvTranslationDataForVerse.verse_number
-                    } have a ${(percentileDate * 100).toFixed(
-                      2
-                    )}% semantic similarity when compared to other verses in ${bookName}
-                </h2>                    
-                <!-- <p class="text-align-center">Percentile relationship other verses in the book</p> -->
+                  The translations of ${bookName} ${
+          asvTranslationDataForVerse.chapter
+        }:${asvTranslationDataForVerse.verse_number} have a ${(
+          percentileDate * 100
+        ).toFixed(
+          1
+        )}% semantic similarity when compared to other verses in ${bookName}
+                </h2>               
               </div>
             <div class="maxTextWidth centered-flex-column">
               <h4>
@@ -165,12 +168,14 @@ const loadData = async (bookCode: string) => {
               </h4>
               <div class="flex-row justify-space-evenly" style="padding-top: 2rem">
                 <div class="flex-column">
+                    <div id=${averagePieChart}></div>
                     <h3 class="text-align-center">${average.toFixed(
                       2
                     )}</h3>                    
                     <p class="text-align-center">Average similarity of biblical translations</p>
                 </div>
                 <div class="flex-column">
+                    <div id=${standardDeviationPieChart}></div>
                     <h3 class="text-align-center">${standard_deviation.toFixed(
                       2
                     )}</h3>                    
@@ -182,7 +187,18 @@ const loadData = async (bookCode: string) => {
       `;
         appDiv.appendChild(newSection);
         if (verseData) {
-          createPieChart(verseData)
+          createPieChart({
+            selectionId: averagePieChart,
+            percentageFloat: average,
+            maxSize: 100,
+            showPercent: false
+          });
+          createPieChart({
+            selectionId: standardDeviationPieChart,
+            percentageFloat: standard_deviation * 10,
+            maxSize: 100,
+            showPercent: false
+          });
         }
         // Wait for the browser to paint the updates
         // await new Promise((resolve) => requestAnimationFrame(resolve));
