@@ -223,7 +223,7 @@ justify-content: space-evenly;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-flow: column; */
+  flex-flow: column;
   flex-wrap: wrap;
   padding: 2rem;
 }

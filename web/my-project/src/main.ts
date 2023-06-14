@@ -2,7 +2,7 @@ import { mean } from "d3";
 import { asvTranslationData } from "./asvTranslationData";
 import { bookNames } from "./fullBookNameData";
 import "./style.css";
-import { createPieChart } from "./animateDataViz";
+import { createPercentileText, createPieChart, createBarChartWithStdDev } from "./animateDataViz";
 
 type AccumulatorType = { [verse_uid: string]: number[] };
 
@@ -151,21 +151,21 @@ const loadData = async (bookCode: string) => {
               <h1>${bookName} ${asvTranslationDataForVerse.chapter}:${
           asvTranslationDataForVerse.verse_number
         }</h1>    
-                <h2>falls ${createPercentileText(percentileDate)}</h2>    
-                <h2 class="text-align-center">
+                        
+              </div>
+            <div class="maxTextWidth centered-flex-column">
+              <!-- <h4>
+                ${asvTranslationDataForVerse.verse_text}
+              </h4> -->
+              <h2 class="text-align-center">
                   The translations of ${bookName} ${
           asvTranslationDataForVerse.chapter
-        }:${asvTranslationDataForVerse.verse_number} have a ${(
+        }:${asvTranslationDataForVerse.verse_number} falls ${createPercentileText(percentileDate)} in translation continuity having a ${(
           percentileDate * 100
         ).toFixed(
           1
         )}% semantic similarity when compared to other verses in ${bookName}
-                </h2>               
-              </div>
-            <div class="maxTextWidth centered-flex-column">
-              <h4>
-                ${asvTranslationDataForVerse.verse_text}
-              </h4>
+                </h2>       
               <div class="flex-row justify-space-evenly" style="padding-top: 2rem">
                 <div class="flex-column">
                     <div id=${averagePieChart}></div>
@@ -193,12 +193,33 @@ const loadData = async (bookCode: string) => {
             maxSize: 100,
             showPercent: false
           });
-          createPieChart({
+          createBarChartWithStdDev({
             selectionId: standardDeviationPieChart,
-            percentageFloat: standard_deviation * 10,
-            maxSize: 100,
-            showPercent: false
-          });
+            data: [
+              {
+                category: "Translation A",
+                value: 1.2,
+              },
+              {
+                category: "Translation B",
+                value: 0.8,
+              },
+              {
+                category: "Translation C",
+                value: 1.5,
+              },
+              {
+                category: "Translation D",
+                value: 1.0,
+              },
+              {
+                category: "Translation E",
+                value: 0.6,
+              },
+            ],
+            size: 100,
+            margin: { top: 20, right: 20, bottom: 70, left: 70 },
+          })
         }
         // Wait for the browser to paint the updates
         // await new Promise((resolve) => requestAnimationFrame(resolve));
