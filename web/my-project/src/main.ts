@@ -180,7 +180,7 @@ const loadData = async (bookCode: string) => {
           asvTranslationDataForVerse.verse_number
         } falls ${createPercentileText(
           percentileDate
-        )} of verses in ${bookName} having a ${(
+        )} of verses in ${bookName}, having a ${(
           (1 - average) * 100
         ).toFixed(1)}% semantic ambiguity between the biblical translations. 
                 </h2>       
