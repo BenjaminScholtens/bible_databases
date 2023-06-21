@@ -180,9 +180,9 @@ const loadData = async (bookCode: string) => {
           asvTranslationDataForVerse.verse_number
         } falls ${createPercentileText(
           percentileDate
-        )} of verses in ${bookName}. Translations have a ${(
-          average * 100
-        ).toFixed(1)}% semantic similarity on average.
+        )} of verses in ${bookName} having a ${(
+          (1 - average) * 100
+        ).toFixed(1)}% semantic ambiguity between the biblical translations. 
                 </h2>       
               <div class="flex-row justify-space-evenly" style="padding-top: 2rem">
                 <div class="flex-column">
